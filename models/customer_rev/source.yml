@@ -1,0 +1,13 @@
+sources:
+      - name: landing
+        database: SLEEKMART_OMS
+        schema: L1_LANDING
+        description: lading zone of customer data model # Optional
+        tables:
+          - name: CUSTOMERS
+            identifier: CUSTOMERS
+          - name: ORDERITEMS
+            identifier: ORDERITEMS
+          - name: ORDERS
+            identifier: ORDERS
+
